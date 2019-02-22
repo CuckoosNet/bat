@@ -29,7 +29,7 @@ public class Servlet extends HttpServlet {
 	        // TODO Auto-generated method stub
 	        LocalTime heure = LocalTime.now();
 	    	List<String> bateaux = BateauRepo.findAll();
-	        response.getWriter().append("Le bateau a coulé à " ).append(heure.toString())
+	        response.getWriter().append("Le bateau a coulÃ© Ã  " ).append(heure.toString())
 	        .append("<br>Liste des bateaux : ")
 	        .append(bateaux.toString());
 	    }
